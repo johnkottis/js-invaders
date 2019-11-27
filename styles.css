@@ -1,0 +1,146 @@
+/*** Generic Styles ***/
+html {
+    background: #000;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background: url("big-walle.jpg") center center no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    margin-top: -250px; 
+    margin-left: -300px; 
+}
+
+/*** Main Header ***/
+.main-header {
+    margin: -10px 0 0 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-header ul {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-header ul li {
+    float: left;
+    width: 33%;
+}
+
+.main-header ul li span {
+    clear: both;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/*** Stats ***/
+.info {
+    border: 1px solid white;
+    color: #fff;
+    float: left;
+    font-size: 13px;
+    height: 500px;
+    width: 250px;
+}
+
+.info ul{
+    float: left;
+    font-family: lato;
+    font-size: 15px;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.info ul li {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.info ul li span {
+    text-align: right;
+    width: 50%;
+    float: right;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+/*** Logo ***/
+.logo {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img {
+    display: inline-block;
+    max-width: 180px;
+}
+
+/*** Main Footer ***/
+.main-footer {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.main-footer img {
+    bottom: -350px;
+    position: absolute;
+    right: 8px;
+    width: 341px;
+}
+
+/*** Canvas ***/
+.canvas-wrapper {
+   
+}
+
+#gunraysCanvas {
+    background-color:transparent;
+}
+
+
+/*** Colours ***/
+.fg-aqua {
+    color: #07eeeb;
+}
+
+.fg-navy {
+    color: #0000e7;
+}
+
+.fg-yellow {
+    color: #d8de06;
+}
